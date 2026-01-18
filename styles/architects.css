@@ -73,6 +73,9 @@ margin-top: 130px;
 
   color: #FF900E;
 }
+
+
+
 /*dark03*/
 
 .text-light-gray{
@@ -165,6 +168,7 @@ font-size: 4rem;
 
 display: flex;
 align-items: center;
+margin-top: 35px;
   
 }
 
@@ -174,7 +178,8 @@ align-items: center;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 24px;
-
+max-width: 700px;
+height: auto;
 
 
 
@@ -201,6 +206,74 @@ font-weight: 500;
 
 
 
+}
+
+
+
+
+/* ===== Fact section design ===== */
+
+/* container */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 80px auto;
+  justify-items: center;
+}
+
+/* card */
+.fact-card{
+  border: 1px solid #FF900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+
+
+/* hover effect */
+.fact-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* icon */
+.fact-icon{
+  width: 45px;
+  margin-bottom: 12px;
+}
+
+/* number */
+.fact-number{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* name */
+.fact-name{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #727272;
+}
+
+
+.fact-discription{
+
+
+
+  max-width: 540px;
 }
 
 
@@ -234,7 +307,7 @@ font-weight: 500;
 }
 
 
-/*medium seize devifce*/
+/*medium seize device*/
 
 
 
